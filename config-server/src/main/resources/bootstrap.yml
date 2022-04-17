@@ -6,12 +6,11 @@ spring:
       server:
         git:
           uri: https://github.com/shishu19/spring-config-repository
-          default-label: master
           username: shishu19
-          password: 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
+          password: '{cipher}19c424699d473badb9934e1019ab1ef59cc9057a8cdc5cdad656854a42fb7adb915716ec0f741cb37648d9f98b6642c3747e668a4aaf9cd5d5e3104dc7b24d46'
           clone-on-start: true
     fail-fast: true
   security:
     user:
       name: spring_cloud_user
-      password: '{cipher}c0d85293cb01a46b3b629a12e5620f4e9d00d4ede8bdf248cf5b83e23f4536501e4b34a8d56b7a34fcee17aa01d05330'
+      password: '{cipher}d64e34c1350cb431474114f3454729693ee3967ed112e589bb939063b098ba8660c93ca664cc8cd0c5cb1252a2b0de11'
