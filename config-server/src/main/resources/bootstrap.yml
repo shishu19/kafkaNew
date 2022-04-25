@@ -7,7 +7,7 @@ spring:
         git:
           uri: https://github.com/shishu19/spring-config-repository
           username: shishu19
-          password: '{cipher}19c424699d473badb9934e1019ab1ef59cc9057a8cdc5cdad656854a42fb7adb915716ec0f741cb37648d9f98b6642c3747e668a4aaf9cd5d5e3104dc7b24d46'
+          password: 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
           clone-on-start: true
     fail-fast: true
   security:

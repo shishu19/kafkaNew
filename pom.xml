@@ -11,7 +11,8 @@
 		<module>kafka/kafka-producer</module>
 		<module>common-config</module>
 		<module>config-server</module>
-	</modules>
+        <module>kafka-to-elastic-service</module>
+    </modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -49,6 +50,11 @@
 	<dependencyManagement>
 		<dependencies>
 			<!-- LOCAL -->
+			<dependency>
+				<groupId>com.microservices.demo</groupId>
+				<artifactId>kafka-consumer</artifactId>
+				<version>${project.version}</version>
+			</dependency>
 			<dependency>
 				<groupId>com.microservices.demo</groupId>
 				<artifactId>app-config-data</artifactId>
